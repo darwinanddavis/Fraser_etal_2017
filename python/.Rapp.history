@@ -1,0 +1,94 @@
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=T ,sep=",")
+entry<-BioCons$PY
+head(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=T ,sep=",",skip=1)
+entry<-BioCons$PY
+entry<-BioCons$PY
+head(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=T ,sep=",",skip=1)
+entry<-BioCons$PY
+head(entry)
+entry
+BioCons<-read.csv("Biological Conservation.csv",skip=1,row.names=NULL,header=T ,sep=",")
+entry<-BioCons$PY
+head(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=T ,sep=",")#
+#str(BioCons)#
+entry<-BioCons$PY#
+head(entry)
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)
+setwd("/Users/matthewmalishev/Documents/Manuscripts/2015/Pearson_etal")
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=T ,sep=",")#
+#str(BioCons)#
+entry<-BioCons$PY#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=F ,sep=",")
+entry<-BioCons$PY#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL ,sep=",")
+entry<-BioCons$PY#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)
+class(entry)
+entry<-as.data.frame(entry)
+class(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL ,sep=",")#
+#str(BioCons)#
+entry<-BioCons$PY#
+entry<-as.data.frame(entry)#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)#
+class(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=T ,sep=",")
+entry<-BioCons$PY#
+entry<-as.data.frame(entry)#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)#
+class(entry)
+entry<-colnames.rm(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=F ,sep=",")
+str(BioCons)
+str(BioCons)
+entry<-BioCons$PY
+entry<-as.data.frame(entry)#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)#
+class(entry)
+BioCons<-read.csv("Biological Conservation.csv",header=F ,sep=",")
+str(BioCons)#
+entry<-BioCons$PY#
+entry<-as.data.frame(entry)#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)#
+class(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=NULL ,sep=",")
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=F ,sep=",")
+length(entry)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=F ,sep=",")#
+#str(BioCons)#
+entry<-BioCons$PY#
+entry<-as.data.frame(entry)#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)
+BioCons<-read.csv("Biological Conservation.csv",row.names=NULL,header=T ,sep=",")#
+#str(BioCons)#
+entry<-BioCons$PY#
+entry<-as.data.frame(entry)#
+head(entry)#
+write.csv(entry, file = "BioCons_PY.csv", row.names=F)#
+class(entry)
+length(entry)
+for (i in entry) {print length(i)}
+for (i in entry) {print (length(i))}
+BioCons<-read.csv("Biological Conservation.csv", header=T,sep=",")
+entry<-BioCons$C1
+for (i in entry) {print (length(i))}
+BioCons<-read.csv("Biological Conservation.csv", header=T,sep=",")#
+#str(BioCons)#
+entry<-BioCons$C1
+head(entry)
+entry[1]
+entry[1:2]
+q()
