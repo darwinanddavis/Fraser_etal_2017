@@ -14,7 +14,7 @@
 
 ##### *Corresponding author: Hannah Fraser  
 
-Fraser H, Soanes K, Jones C, Jones S & **Malishev M** (2017) The value of virtual conferencing for ecology and conservation. _Conservation Biology,_ 31(3): 540–546, [https://doi.org/10.1111/cobi.12837](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.12837).       
+Fraser H, Soanes K, Jones C, Jones S & Malishev M (2017) The value of virtual conferencing for ecology and conservation. _Conservation Biology,_ 31(3): 540–546, [https://doi.org/10.1111/cobi.12837](https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/cobi.12837).       
 
 
 ******
